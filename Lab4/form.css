@@ -1,0 +1,129 @@
+form div {
+    margin-top: 5px;
+}
+
+form input[type=text],
+form input[type=password],
+form textarea {
+    padding: 5px;
+    border: 1px solid black;
+    width: 250px;
+    background: #e3e0e0;
+}
+
+form input[type=text]:hover,
+form input[type=password]:hover,
+form textarea:hover {
+    background: #ffffff;
+}
+
+form input[type=text].TruongBatbuoc {
+    background-color: #74f1f1;
+}
+
+form input[type=text].TruongBatbuoc:hover {
+    background-color: #00dddd;
+}
+
+form input[type=button] {
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    border: none;
+}
+
+form input[type=button]:hover {
+    background: #0b7dda;
+}
+
+form label.TieuDe {
+    float: left;
+    width: 100px;
+}
+
+form span.Baoloi {
+    color: #ff0000;
+}
+
+form br {
+    clear: both;
+}
+
+.checkbox-container,
+.radio-container {
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    padding-left: 15px;
+}
+
+.checkbox-container input,
+.radio-container input {
+    position: absolute;
+    display: none;
+    cursor: pointer;
+}
+
+.checkbox-container input~span.checkmark {
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    height: 13px;
+    width: 13px;
+    background-color: #dbd5d5;
+}
+
+.checkbox-container input~span.checkmark2 {
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    width: 3px;
+    height: 6px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    display: none;
+}
+
+
+.radio-container input~span.checkmark {
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    height: 13px;
+    width: 13px;
+    background-color: #dcd7d7;
+    border-radius: 50%;
+}
+
+.radio-container input~span.checkmark2 {
+    position: absolute;
+    display: none;
+    top: 7px;
+    left: 4px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: white;
+}
+
+
+.checkbox-container:hover input~span.checkmark,
+.radio-container:hover input~span.checkmark {
+    background-color: #ccc;
+}
+
+
+.checkbox-container input:checked~span.checkmark,
+.radio-container input:checked~span.checkmark {
+    background-color: #2196F3;
+}
+
+.checkbox-container input:checked~span.checkmark2,
+.radio-container input:checked~.checkmark2 {
+    display: inline;
+}
+
+.nodisplay {
+    display: none;
+}

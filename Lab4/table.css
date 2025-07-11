@@ -1,0 +1,38 @@
+#tbl {
+    border: solid 1px #000000;
+    border-collapse: collapse;
+}
+
+#tbl td,
+th {
+    border: solid 1px #000000;
+}
+
+#tbl tbody>tr:hover {
+    background-color: #0bec25;
+    cursor: pointer;
+}
+
+#tbl thead {
+    background-color: #57cde5;
+}
+
+#tbl tr.oddr {
+    background-color: #cdcccc;
+}
+
+#tbl tr.evenr {
+    background-color: #f0f0f0;
+}
+
+#tbl tr.selectedr {
+    background-color: yellow;
+}
+
+.nodisplay {
+    display: none;
+}
+
+div.group-op-container {
+    height: 30px;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sortable List</title>
+    <link rel="stylesheet" href="sortable.css">
+    <script src="sortable.js" defer></script>
+</head>
+
+<body>
+    <h3>Bảng này sắp xếp được theo cột 1 và cột 2</h3>
+    <table class="sortable">
+        <thead>
+            <tr>
+                <th>TT</th>
+                <th class="sortcol" title="Nhấp vào để sắp xếp cột">Mã sản phẩm
+                    <span class="arrow"></span>
+                </th>
+                <th class="sortcol" title="Nhấp vào để sắp xếp cột">Tên sản phẩm
+                    <span class="arrow"></span>
+                </th>
+            </tr>
+        </thead>
+        <tbody id="sortable-table">
+            <tr>
+                <td>1</td>
+                <td class="sanpham">SP001</td>
+                <td class="tensanpham">Máy giặt</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="sanpham">SP002</td>
+                <td class="tensanpham">Bếp đa năng</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="sanpham">SP003</td>
+                <td class="tensanpham">Lò sưởi</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td class="sanpham">SP004</td>
+                <td class="tensanpham">Điều hòa nhiệt độ</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td class="sanpham">SP005</td>
+                <td class="tensanpham">Tủ lạnh</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Bảng này sắp xếp được theo cột 2 và cột 3</h3>
+    <table class="sortable">
+        <thead>
+            <tr>
+                <th>TT</th>
+                <th>Mã sản phẩm</th>
+                <th class="sortcol" title="Nhấp vào để sắp xếp cột">Tên sản phẩm
+                    <span class="arrow"></span>
+                </th>
+                <th class="sortcol" title="Nhấp vào để sắp xếp cột"> Xuất xứ
+                    <span class="arrow"></span>
+                </th>
+            </tr>
+        </thead>
+        <tbody id="sortable-table">
+            <tr>
+                <td>1</td>
+                <td class="sanpham">SP001</td>
+                <td class="tensanpham">Máy giặt</td>
+                <td class="xuatxu">Nhật Bản</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="sanpham">SP002</td>
+                <td class="tensanpham">Bếp đa năng</td>
+                <td class="xuatxu">Hàn Quốc</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="sanpham">SP003</td>
+                <td class="tensanpham">Lò sưởi</td>
+                <td class="xuatxu">Mỹ</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td class="sanpham">SP004</td>
+                <td class="tensanpham">Điều hòa nhiệt độ</td>
+                <td class="xuatxu">Việt Nam</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td class="sanpham">SP005</td>
+                <td class="tensanpham">Tủ lạnh</td>
+                <td class="xuatxu">Nhật Bản</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Bảng này không cho sắp xếp theo cột nào</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>TT</th>
+                <th>Mã sản phẩm</th>
+                <th>Tên sản phẩm</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td class="sanpham">SP001</td>
+                <td class="tensanpham">Máy giặt</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="sanpham">SP002</td>
+                <td class="tensanpham">Bếp đa năng</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="sanpham">SP003</td>
+                <td class="tensanpham">Lò sưởi</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td class="sanpham">SP004</td>
+                <td class="tensanpham">Điều hòa nhiệt độ</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td class="sanpham">SP005</td>
+                <td class="tensanpham">Tủ lạnh</td>
+            </tr>
+        </tbody>
+    </table>
+</body>

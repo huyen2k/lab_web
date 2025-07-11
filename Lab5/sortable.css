@@ -1,0 +1,33 @@
+.sortable {
+    border-collapse: collapse;
+    border: 2px solid #2e2d2d;
+    width: auto;
+}
+
+.sortable thead th, .sortable tbody td {
+    border: 1px solid #2e2d2d;
+}
+
+.sortable thead {
+    background-color: #93a4a8;
+}
+
+.sortable th.sortcol {
+    cursor: pointer;
+}
+
+.sortable th.sortcol span.arrow::after {
+	content: "\2195";
+}
+
+.sortable th.asc span.arrow::after {
+    content: "\2191";
+    color: #ff0000;
+    background-color: yellow;
+}
+
+.sortable th.desc span.arrow::after {
+    content: "\2193";
+    color: #ff0000;
+    background-color: yellow;
+}
