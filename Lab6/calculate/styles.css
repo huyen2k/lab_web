@@ -1,0 +1,20 @@
+.cal {
+    border: 2px solid rgb(0, 0, 0);
+    width: 50px;
+    height: 60px;
+    border-spacing: 5px;
+}
+
+.cal td {
+    border: 1px solid rgb(152, 152, 152);
+    text-align: center;
+}
+
+.cel {
+    padding: 1px;
+}
+
+.read-out {
+    size: 24;
+    text-align: left;
+}
